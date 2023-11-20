@@ -6,7 +6,7 @@ const secure=require('./api/v1/middlewares/secure');
 const mylogger=require('./api/v1/middlewares/mylogger');
 
 const morgan=require('morgan');
-let arrip=['127.0.0.1','::1','162.3.6.5'];
+let arrip=['127.0.0.1','::1','162.3.6.5',"127.0.0.2"];
 
 app.use(secure);
 app.use(mylogger);
